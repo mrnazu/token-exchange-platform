@@ -1,6 +1,12 @@
 {
   "extends": "astro/tsconfigs/base",
   "compilerOptions": {
+    "target": "es2018",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   }
