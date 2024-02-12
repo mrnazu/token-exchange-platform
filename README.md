@@ -1,4 +1,4 @@
-# Astro Token Exchange Web3 Platform 
+# Token Exchange Web3 Platform 
 
 ![image](https://github.com/mrnazu/token-exchange-platform/assets/108541991/0f3d989b-54d9-4941-b31b-d5f9d223e701)
 
