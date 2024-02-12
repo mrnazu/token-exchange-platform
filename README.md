@@ -1,15 +1,15 @@
 # Astro Token Exchange Web3 Platform 
 
-img here
+![image](https://github.com/mrnazu/token-exchange-platform/assets/108541991/0f3d989b-54d9-4941-b31b-d5f9d223e701)
 
 This projcet aims to create a decentralized token exchange platform that allows users to trade various tokens securely and efficiently on the blockchain.
 
 ## Technology Stack
 
-- **Frontend**: Astro, React, Redux
-- **Backend**: Solidity, Node.js
-- **Blockchain Integration**: Ether.js
-- **Development Environment**: Hardhat
+- **Frontend**: `Astro`, `React`, `Redux`
+- **Backend**: `Solidity`, `Node.js`
+- **Blockchain Integration**: `Ether.js`
+- **Development Environment**: `Hardhat`
 
 ## Features
 
