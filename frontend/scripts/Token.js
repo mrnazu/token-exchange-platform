@@ -28,4 +28,4 @@ describe("Token", function() {
     });
 });
 
-// 3. Testing Contract: 20:30
+// 3. Testing Contract: 32:00
