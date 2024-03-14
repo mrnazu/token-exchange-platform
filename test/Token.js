@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 const { expect } = require('chai');
 const { ethers } = require('hardhat');
 
@@ -34,6 +35,17 @@ describe('Token', () => {
     it('has correct total supply', async () => {
       expect(await token.totalSupply()).to.equal(totalSupply)
     })
+
+    it('has correct total supply', async () => {
+      // Retrieve the deployer account
+      const [deployer] = await ethers.getSigners();
+    
+      // Get the balance of the deployer's address
+      const deployerBalance = await token.balanceOf(deployer.address);
+    
+      // Assert that the deployer's balance matches the total supply
+      expect(deployerBalance).to.equal(totalSupply);
+    });
 
   })
 
