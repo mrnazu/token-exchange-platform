@@ -40,13 +40,23 @@ describe('Token', () => {
       // Retrieve the deployer account
       const [deployer] = await ethers.getSigners();
     
-      // Get the balance of the deployer's address
       const deployerBalance = await token.balanceOf(deployer.address);
     
-      // Assert that the deployer's balance matches the total supply
       expect(deployerBalance).to.equal(totalSupply);
     });
+
+    describe('Sending Token', function() {
+      it('Transfers token balances', async function() {
+        // Retrieve the deployer account
+        const [deployer] = await ethers.getSigners();
+        const deployerBalance = await token.balanceOf(deployer.address);
+        
+        token.connect(deployer).transfer('0x.000', '100')
+      })
+    })
 
   })
 
 })
+
+// Token Transfer 12:19
